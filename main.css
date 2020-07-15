@@ -5,7 +5,6 @@
 }
 body{
     background-color: #f0f0f5;
-    
 }
 
 .bgi{
@@ -34,18 +33,42 @@ body{
 
 .perfil{
     background: #0B0B0B;
-    height: 300px;
-    color: #f2b005;
+    height: 625px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .perfil h1{
     text-align: center;
+    color: #f2b005;
+    margin-top: 50px;
+    height: fit-content;
+    
 }
 
-.perfil p{
-    margin-top: 30px;
-    margin-right: 800px;
-    margin-left: 20px;
-    color: white;
+.perfil .textos{
+    display: flex;
+    margin-top: 60px;
+}
 
+.perfil .textos p{
+    color: white;
+    height: fit-content;
+    margin-left: 50px;
+    margin-top: 70px;
+   
+}
+.perfil .textos p strong{
+    color:  #f2b005;
+}
+
+.perfil .textos .textodois{
+    margin-right: 50px;
+}
+.perfil .textos img{
+    height: 250px;
+    width: 200px;
+    align-items: center;
+    margin-left: 30px;
 }
