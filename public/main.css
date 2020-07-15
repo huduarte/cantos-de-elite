@@ -6,10 +6,22 @@
 body{
     background-color: #f0f0f5;
 }
-
+.homebar{
+    background: #0B0B0B;
+    display: flex;
+    justify-content: center;
+    height: 76px;
+}
+.homebar h1{
+    color: #f2b005;
+    margin-top: 17px;
+    font-size: 35px;
+    font-weight: bold;
+    
+}
 .bgi{
     width: 100%;
-    height: 800px;
+    height: 1100px;
     background: url(/image/bgi.jpg) no-repeat center top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -17,25 +29,37 @@ body{
     background-size: cover;
 }
 
-.homebar{
-    background: #0B0B0B;
+.bgi #text{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    height: 60px;
+    padding-top: 50px;
+    margin-left: 350px;
 }
 
-.homebar h1{
-    color: #f2b005;
-    margin-top: 17px;
-    font-size: 25px;
+.bgi #text span{
+    color: white;
     font-weight: bold;
+    font-size: 40px;
+    letter-spacing: -.0415625em;
+}
+.bgi #text p{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: -.0415625em;
+    margin-left: 75px;
     
 }
+.bgi #text strong{
+    color:  #f2b005;
+}
+
 .bgi #buttonbuy{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 500px;
+    padding-top: 650px;
     
 }
 .bgi #buttonbuy a{
@@ -52,7 +76,7 @@ body{
 .bgi #buttonbuy a span{
     color: #ffffff; 
     font-weight: bold; 
-    font-size: 23px;
+    font-size: 27px;
 }
 
 .perfil{
