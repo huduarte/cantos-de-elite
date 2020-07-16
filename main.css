@@ -34,7 +34,6 @@ body{
     flex-direction: column;
     justify-content: center;
     padding-top: 50px;
-    margin-left: 270px;
 }
 
 #bgi #text span{
@@ -42,13 +41,14 @@ body{
     font-weight: bold;
     font-size: 40px;
     letter-spacing: -.0415625em;
+    text-align: center;
 }
 #bgi #text #title{
+    text-align: center;
     color: white;
     font-weight: bold;
     font-size: 40px;
     letter-spacing: -.0415625em;
-    margin-left: 175px;
 }
 #bgi #text strong{
     color:  #f2b005;
@@ -75,9 +75,9 @@ body{
 }
 
 #bgi #buttonbuy a:hover{
-    background-color: #be4925;
-    box-shadow: 0px 0px 10px 0px #be4925;
-    transition: 400ms;
+    background-color: #df5125;
+    box-shadow: 0px 0px 10px 0px #df5125;
+    transition: 600ms;
 
 }
 #bgi #buttonbuy a span{
