@@ -21,7 +21,7 @@ body{
 }
 #bgi{
     width: 100%;
-    height: 1100px;
+    height: 175vh;
     background: url(/image/bgi.jpg) no-repeat center top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -88,7 +88,7 @@ body{
 
 .perfil{
     background: #0B0B0B;
-    height: 625px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -137,6 +137,6 @@ body{
 
 /* rgb(25, 28, 30); */
 
-#ensinar{
-    height: 625px;
+.modules{
+    height: 80vh;
 }
