@@ -6,13 +6,13 @@
 body{
     background-color: #f0f0f5;
 }
-.homebar{
+.barrainicial{
     background: #0B0B0B;
     display: flex;
     justify-content: center;
     height: 76px;
 }
-.homebar h1{
+.barrainicial h1{
     color: #f2b005;
     margin-top: 17px;
     font-size: 35px;
@@ -43,13 +43,12 @@ body{
     font-size: 40px;
     letter-spacing: -.0415625em;
 }
-.bgi #text p{
+.bgi #text #title{
     color: white;
     font-weight: bold;
     font-size: 40px;
     letter-spacing: -.0415625em;
     margin-left: 75px;
-    
 }
 .bgi #text strong{
     color:  #f2b005;
@@ -71,7 +70,15 @@ body{
     width: 756px;
     height: 88px;
     border-radius: 8px;
-    box-shadow: 0px 0px 10px 0px #f15729;               
+    box-shadow: 0px 0px 10px 0px #f15729;  
+    transition: 400;             
+}
+
+.bgi #buttonbuy a:hover{
+    background-color: #be4925;
+    box-shadow: 0px 0px 10px 0px #be4925;
+    transition: 400ms;
+
 }
 .bgi #buttonbuy a span{
     color: #ffffff; 
@@ -89,10 +96,13 @@ body{
 
 .perfil h1{
     text-align: center;
-    color: #f2b005;
+    color: #ffffff;
     margin-top: 50px;
     height: fit-content;
     
+}
+.perfil h1 strong{
+    color:  #f2b005;
 }
 
 .perfil .textos{
@@ -100,7 +110,7 @@ body{
     margin-top: 60px;
 }
 
-.perfil .textos p{
+.perfil .textos .textoum{
     color: white;
     height: fit-content;
     margin-left: 50px;
@@ -113,10 +123,14 @@ body{
 
 .perfil .textos .textodois{
     margin-right: 50px;
+    color: white;
+    height: fit-content;
+    margin-left: 50px;
+    margin-top: 70px;
 }
 .perfil .textos img{
     height: 250px;
-    width: 200px;
+    width: 250px;
     align-items: center;
     margin-left: 30px;
 }
