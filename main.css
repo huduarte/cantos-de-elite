@@ -34,7 +34,7 @@ body{
     flex-direction: column;
     justify-content: center;
     padding-top: 50px;
-    margin-left: 350px;
+    margin-left: 270px;
 }
 
 #bgi #text span{
@@ -48,7 +48,7 @@ body{
     font-weight: bold;
     font-size: 40px;
     letter-spacing: -.0415625em;
-    margin-left: 75px;
+    margin-left: 175px;
 }
 #bgi #text strong{
     color:  #f2b005;
