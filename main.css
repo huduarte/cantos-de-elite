@@ -6,20 +6,20 @@
 body{
     background-color: #f0f0f5;
 }
-.barrainicial{
+#barrainicial{
     background: #0B0B0B;
     display: flex;
     justify-content: center;
     height: 76px;
 }
-.barrainicial h1{
+#barrainicial h1{
     color: #f2b005;
     margin-top: 17px;
     font-size: 35px;
     font-weight: bold;
     
 }
-.bgi{
+#bgi{
     width: 100%;
     height: 1100px;
     background: url(/image/bgi.jpg) no-repeat center top fixed;
@@ -29,7 +29,7 @@ body{
     background-size: cover;
 }
 
-.bgi #text{
+#bgi #text{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,31 +37,31 @@ body{
     margin-left: 350px;
 }
 
-.bgi #text span{
+#bgi #text span{
     color: white;
     font-weight: bold;
     font-size: 40px;
     letter-spacing: -.0415625em;
 }
-.bgi #text #title{
+#bgi #text #title{
     color: white;
     font-weight: bold;
     font-size: 40px;
     letter-spacing: -.0415625em;
     margin-left: 75px;
 }
-.bgi #text strong{
+#bgi #text strong{
     color:  #f2b005;
 }
 
-.bgi #buttonbuy{
+#bgi #buttonbuy{
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 650px;
     
 }
-.bgi #buttonbuy a{
+#bgi #buttonbuy a{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,13 +74,13 @@ body{
     transition: 400;             
 }
 
-.bgi #buttonbuy a:hover{
+#bgi #buttonbuy a:hover{
     background-color: #be4925;
     box-shadow: 0px 0px 10px 0px #be4925;
     transition: 400ms;
 
 }
-.bgi #buttonbuy a span{
+#bgi #buttonbuy a span{
     color: #ffffff; 
     font-weight: bold; 
     font-size: 27px;
@@ -110,7 +110,7 @@ body{
     margin-top: 60px;
 }
 
-.perfil .textos .textoum{
+.perfil .textos #textoum{
     color: white;
     height: fit-content;
     margin-left: 50px;
@@ -121,7 +121,7 @@ body{
     color:  #f2b005;
 }
 
-.perfil .textos .textodois{
+.perfil .textos #textodois{
     margin-right: 50px;
     color: white;
     height: fit-content;
@@ -133,4 +133,10 @@ body{
     width: 250px;
     align-items: center;
     margin-left: 30px;
+}
+
+/* rgb(25, 28, 30); */
+
+#ensinar{
+    height: 625px;
 }
