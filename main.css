@@ -162,12 +162,11 @@ body{
 }
 
 #modules #mod1{
-    margin-left: 300px;
+
 }
 
 #modules #mod2{
-    padding-top: 270px;
-    margin-right: 300px;
+    padding-top: 20px;
 }
 
 #modules #modulos p strong{
@@ -175,8 +174,3 @@ body{
 }
 
 
-@media(max-width: 600px){
-    #bgi{
-        background-image: url(image/responsive.jpg);
-    }
-}

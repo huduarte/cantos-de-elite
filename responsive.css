@@ -1,2 +1,21 @@
 
-
+@media(max-width: 600px){
+    #bgi{
+        background-image: url(image/responsive.jpg);
+    }
+    .textos{
+        flex-direction: column;
+    }
+    #modules h1{
+        font-size: 30px;
+    }
+    #modulos{
+        flex-direction: column;
+    }
+    #mod1{
+        text-align: center;
+    }
+    #mod2{
+        text-align: center;
+    }
+}
