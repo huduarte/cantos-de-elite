@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    letter-spacing: -.0415625em;
 }
 body{
     background-color: #f0f0f5;
@@ -91,7 +92,6 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    width: 100%;
 }
 
 .perfil h1{
@@ -135,8 +135,48 @@ body{
     margin-left: 30px;
 }
 
-/* rgb(25, 28, 30); */
+#modules{
+    height: 100vh;
+    background-color: rgb(25, 28, 30);
+}
 
-.modules{
-    height: 80vh;
+#modules h1{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    padding-top: 50px;
+}
+#modules h1 strong{
+    color: #f2b005;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+#modules #modulos{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 17.5px;
+}
+
+#modules #mod1{
+    margin-left: 300px;
+}
+
+#modules #mod2{
+    padding-top: 270px;
+    margin-right: 300px;
+}
+
+#modules #modulos p strong{
+    color: #f2b005;
+}
+
+
+@media(max-width: 600px){
+    #bgi{
+        background-image: url(image/responsive.jpg);
+    }
 }
