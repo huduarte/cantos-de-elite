@@ -8,10 +8,12 @@ body{
     background-color: #f0f0f5;
 }
 #barrainicial{
+    position: fixed;
     background: #0B0B0B;
     display: flex;
     justify-content: center;
     height: 76px;
+    width: 100%;
 }
 #barrainicial h1{
     color: #f2b005;
@@ -21,6 +23,7 @@ body{
     
 }
 #bgi{
+    background: rgba(0,0,0,.4);
     width: 100%;
     height: 175vh;
     background: url(/image/bgi.jpg) no-repeat center top fixed;
@@ -34,7 +37,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 #bgi #text span{
@@ -89,7 +92,7 @@ body{
 
 .perfil{
     background: #0B0B0B;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
 }

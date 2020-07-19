@@ -18,4 +18,14 @@
     #mod2{
         text-align: center;
     }
+    .perfil{
+        height: 140vh;
+    }
+    .perfil .textos img{
+        margin-left: 70px;
+        margin-top: 40px;
+    }
+    #bgi #buttonbuy a{
+        width: 350px;
+    }
 }
