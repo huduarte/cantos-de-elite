@@ -29,4 +29,8 @@
     #bgi #buttonbuy a{
         width: 350px;
     }
+
+    .perfil .textos img{
+        margin-top: 70px;
+    }
 }

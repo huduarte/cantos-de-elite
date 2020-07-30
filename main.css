@@ -159,17 +159,14 @@ body{
 #modules #modulos{
     padding-top: 50px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     color: white;
     font-size: 17.5px;
 }
 
-#modules #mod1{
-    
-}
-
 #modules #mod2{
-    padding-top: 20px;
+    padding-top: 70px;
 }
 
 #modules #modulos p strong{
