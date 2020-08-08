@@ -1,0 +1,46 @@
+:root {
+    font-size: 60%;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body, #root{
+    height: 100vh;
+}
+
+body{
+    background-color: #f0f0f7;
+}
+
+
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* //1rem = 9.6px */
+body,
+input,
+button{
+    font: 500 1.6rem Roboto
+}
+
+.container{
+    width: 90%;
+    max-width: 700px;
+}
+
+@media(min-width: 700px){
+    :root{
+        /* //1rem = 10px */
+        font-size: 62.5%;
+    }
+}
