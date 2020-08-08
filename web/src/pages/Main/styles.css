@@ -59,10 +59,12 @@
 
 
 #bgi #buttonbuy{
+    margin-left: -1rem;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 31rem;
+    width: 96%;
     
 }
 #bgi #buttonbuy a{
@@ -87,7 +89,7 @@
 #bgi #buttonbuy a span{
     color: #fff; 
     font-weight: bold; 
-    font-size: 2.8rem;
+    font-size: 2.4rem;
 }
 
 
@@ -104,8 +106,10 @@
         height: 100%;
     }
     #bgi #buttonbuy a{
-        width: 60%;
+        width: 80%;
     }
-
+    #bgi #buttonbuy a span{
+        font-size: 3.2rem;
+    }
 
 }
