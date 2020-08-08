@@ -4,7 +4,8 @@
 }
 
 #landing-title{
-    position: fixed;
+    /* Aumentar o width da langind-title e colocar marginright no texto */
+    /* position: fixed; */
     background-color: #0B0B0B;
 
     display: flex;
@@ -26,10 +27,6 @@
     height: 100%;
 }
 
-#content{
-    margin-left: 1rem;
-}
-
 #text{
     display: flex;
     flex-direction: column;
@@ -37,7 +34,7 @@
 }
 
 #bgi #text span{
-    margin-top: 7rem;
+    margin-top: 2rem;
     color: rgb(212, 197, 197);
     font-weight: bold;
     font-size: 2.8rem;
@@ -59,12 +56,12 @@
 
 
 #bgi #buttonbuy{
-    margin-left: -1rem;
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 31rem;
-    width: 96%;
+    width: 100%;
     
 }
 #bgi #buttonbuy a{
@@ -73,8 +70,8 @@
     justify-content: center;
     background-color:#f15729;
     text-decoration: none;
-    width: 90%;
-    height: 9.5rem;
+    width: 70%;
+    height: 6.5rem;
     border-radius: 0.8rem;
     box-shadow: 0px 0px 10px 0px #f15729;  
     transition: 400;             
@@ -92,6 +89,67 @@
     font-size: 2.4rem;
 }
 
+#perfil-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+#perfil{
+    background: #0B0B0B;
+    height: 115vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#perfil h1{
+    text-align: center;
+    color:#f2b005;
+    margin-top: 50px;
+    height: fit-content;
+    
+}
+#perfil h1 strong{
+    color:  #f2b005;
+}
+
+#perfil #textos{
+    margin-top: 5rem;
+    height: 100%;
+}
+
+#perfil #textos #textoum{
+    color: white;
+    height: fit-content;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 3rem;
+   
+}
+#perfil #textos img{
+    height: 20rem;
+    display: block;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+
+}
+
+#perfil #textos p strong{
+    color:  #f2b005;
+}
+
+#perfil #textos #textodois{
+    color: white;
+    height: fit-content;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 2rem;
+}
+
+
 
 
 @media(min-width: 700px){
@@ -106,10 +164,20 @@
         height: 100%;
     }
     #bgi #buttonbuy a{
-        width: 80%;
+        width: 50%;
     }
     #bgi #buttonbuy a span{
-        font-size: 3.2rem;
+        font-size: 2.6rem;
+    }
+
+    #textos{
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        margin-top: 3rem;
+    }
+    #perfil{
+        height: 75vh;
     }
 
 }
