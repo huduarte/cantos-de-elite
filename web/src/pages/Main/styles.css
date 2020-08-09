@@ -18,7 +18,7 @@
     height: 5.5rem;
     width: 102%;
     
-    color: #f2b005;
+    color: #f20d05;
     font-size: 1.6rem;
     font-weight: bold;
 }
@@ -27,13 +27,28 @@
     background: rgba(0,0,0,.4);
     background: url(../../assets/images/responsive.jpg) no-repeat center top fixed;
     background-size: cover;
-    height: 100%;
+    height: 120vh;
 }
 
 #text{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+#video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#video iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+    height: 25rem;
+    margin-top: 8rem;
 }
 
 #bgi #text span{
@@ -53,16 +68,17 @@
 }
 
 #bgi #text strong{
-    color:  #f2b005;
+    /* color:  #f20d05; */
+    color: #f20d05
 }
 
 
 #bgi #buttonbuy{
+    padding-top: 10rem;
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 31rem;
     width: 100%;
     
 }
@@ -88,7 +104,7 @@
 #bgi #buttonbuy a span{
     color: #fff; 
     font-weight: bold; 
-    font-size: 2.4rem;
+    font-size: 1.6rem;
 }
 
 /* //PERFIL */
@@ -102,20 +118,20 @@
 
 #perfil{
     background: #0B0B0B;
-    height: 115vh;
+    height: 110%;
     display: flex;
     flex-direction: column;
 }
 
 #perfil h1{
     text-align: center;
-    color:#f2b005;
+    color:#f20d05;
     margin-top: 3rem;
     height: fit-content;
     
 }
 #perfil h1 strong{
-    color:  #f2b005;
+    color:  #f20d05;
 }
 
 #perfil #textos{
@@ -142,7 +158,7 @@
 }
 
 #perfil #textos p strong{
-    color:  #f2b005;
+    color:  #f20d05;
 }
 
 #perfil #textos #textodois{
@@ -156,7 +172,7 @@
 /* //MÓDULOS */
 
 #modules{
-    height: 100vh;
+    height: 135vh;
     background-color: rgb(25, 28, 30);;
 }
 
@@ -166,12 +182,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #f2b005;
+    color: #f20d05;
 
 }
 
 
 #modules #h1-modules{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
     margin-top: 1rem;
 }
 
@@ -199,13 +219,14 @@
     display: flex;
     justify-content: center;
     margin-top: 2rem;
-    color: #f2b005;
+    color: #f20d05;
 }
 #mod1-title{
     margin-top: -1rem;
 }
 
 #modulos #mod1 p{
+    height: 100%;
     color: ivory;
     display: flex;
     flex-direction: column;
@@ -218,7 +239,7 @@
     display: flex;
     justify-content: center;
     margin-top: 2rem;
-    color: #f2b005;
+    color: #f20d05;
 
 }
 #mod2-title{
@@ -226,6 +247,7 @@
 }
 #modulos #mod2 p{
     color: ivory;
+    height: 100%;
 }
 
 
@@ -234,19 +256,27 @@
         max-width: 100%;
     }
 
-    
+    #landing-title{
+        width: 102%;
+        padding-right: 0.2rem;
+    }
 
     #bgi{
         background: rgba(0,0,0,.4);
         background: url(../../assets/images/bgi.jpg) no-repeat center top fixed;
         background-size: cover;
-        height: 100%;
+        height: 130vh;
     }
     #bgi #buttonbuy a{
         width: 50%;
     }
     #bgi #buttonbuy a span{
         font-size: 2.6rem;
+    }
+
+    #video iframe{
+        width: 40%;
+        height: 300;
     }
 
     #textos{
@@ -258,5 +288,23 @@
     #perfil{
         height: 110vh;
     }
+
+    #modulos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline
+    }
+
+    #mod1{
+        padding-top: 5rem;
+        padding-left: 20rem;
+    }
+
+    #mod2{
+        padding-right: 20rem;
+    }
+
+
 
 }

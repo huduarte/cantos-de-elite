@@ -17,6 +17,10 @@ function Main(){
                             <span>CONHEÇAM OS <strong>MÉTODOS</strong> QUE ME FIZERAM <strong>FATURAR</strong></span>
                             <p id="title"><br/>5 DÍGITOS <strong>A PARTIR DO ZERO</strong>.</p> 
                         </div>
+                        <div id="video">
+                            {/* <video src="https://www.youtube.com/watch?v=etZWWS8oEh0"></video> */}
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/etZWWS8oEh0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                        </div>
                         <div id="buttonbuy">
                             <a href="">
                                 <span>ADQUIRA O E-BOOK AGORA</span>
@@ -35,7 +39,7 @@ function Main(){
                 <div id="modules">
                     <div id="ensinar">
                         <div id="modules-title">
-                        <h1 id="h1-modules">O QUE <strong>EU </strong>VOU TE <strong>ENSINAR:</strong></h1>
+                        <h1 id="h1-modules">O QUE EU VOU TE ENSINAR</h1>
                         </div>
                         
                         <div id="modulos">
@@ -49,11 +53,23 @@ function Main(){
                                     <br/> <p id="mod1-title">Primeiro Passo/ Estratégias</p> 
                                     <br/>
                                     <br/> 1 - Termos que você precisa saber nas operações;
+                                    <br/>
+                                    <br/>
                                     <br/> 2 - Primeira Estratégia de Cantos (Teórica/Escrita);
+                                    <br/>
+                                    <br/>
                                     <br/> 3 - Primeira Estratégia de Cantos (Prática/Vídeo);
+                                    <br/>
+                                    <br/>
                                     <br/> 4 - Segunda Estratégia de Cantos (Teórica/Escrita);
+                                    <br/>
+                                    <br/>
                                     <br/> 5 - Segunda Estratégia de Cantos (Prática/Vídeo);
+                                    <br/>
+                                    <br/>
                                     <br/> 6 - Terceira Estratégia de Cantos (Teórica/Escrita);
+                                    <br/>
+                                    <br/>
                                     <br/> 7 - Terceira Estratégia de Cantos (Prática/Vídeo)
                                 </p>
                             </div>
@@ -67,7 +83,11 @@ function Main(){
                                         <br/>  <p id="mod2-title">Handcap/Mindset para crescimento no mercado</p>
                                         <br/>
                                         <br/> 1 - Explicação de Handcap (Teórica/Prática);
+                                        <br/>
+                                        <br/>
                                         <br/> 2 - Perfis de investidor + Gestão de Banca;
+                                        <br/>
+                                        <br/>
                                         <br/> 3 - Mindset.
                                 </p>
                             </div>
