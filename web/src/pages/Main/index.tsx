@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles.css'
 import perfilImg from '../../assets/images/exemplo.png'
+import bookImg from '../../assets/images/icons/book-open.svg'
 
 
 function Main(){
@@ -24,15 +25,56 @@ function Main(){
                     </div>
                 </div>
                 <div id="perfil">
-                <h1 id="perfil-name">QUEM É CAIO PÊPE</h1>
-                <div id="textos">
-                    <p id="textoum">Meu nome é <strong>Caio Pêpe</strong>, tenho <strong>18 anos</strong> e sempre fui fascinado em fontes ativas de renda. No ano de 2020 consegui sair do absoluto zero a faturamentos de até <strong>cinco dígitos com o trade esportivo</strong>, sendo capaz de ajudar minha família e sair das asas dos meus pais fazendo <strong>a minha própria renda</strong>.</p>
-                    <img src={perfilImg} alt="Imagem de Perfil" id="perfil-img"/>
-                    <p id="textodois"><strong>Nessa nova jornada</strong> quero trazer essa mesma <strong>independência</strong> para vocês, e lhes mostrar que tudo pode ser alcançado através de <strong>persistência e consistência</strong> juntamente a um trabalho de médio a longo prazo e estratégias utilizadas pela <strong>elite dos apostadores</strong>. Vamos juntos que te mostro <strong>o lado vencedor</strong>! </p>    
-                 </div>
-            </div>
-            </div>
-            
+                    <h1 id="perfil-name">QUEM É CAIO PÊPE</h1>
+                    <div id="textos">
+                        <p id="textoum">Meu nome é <strong>Caio Pêpe</strong>, tenho <strong>18 anos</strong> e sempre fui fascinado em fontes ativas de renda. No ano de 2020 consegui sair do absoluto zero a faturamentos de até <strong>cinco dígitos com o trade esportivo</strong>, sendo capaz de ajudar minha família e sair das asas dos meus pais fazendo <strong>a minha própria renda</strong>.</p>
+                        <img src={perfilImg} alt="Imagem de Perfil" id="perfil-img"/>
+                        <p id="textodois"><strong>Nessa nova jornada</strong> quero trazer essa mesma <strong>independência</strong> para vocês, e lhes mostrar que tudo pode ser alcançado através de <strong>persistência e consistência</strong> juntamente a um trabalho de médio a longo prazo e estratégias utilizadas pela <strong>elite dos apostadores</strong>. Vamos juntos que te mostro <strong>o lado vencedor</strong>! </p>    
+                    </div>
+                </div>
+                <div id="modules">
+                    <div id="ensinar">
+                        <div id="modules-title">
+                        <h1 id="h1-modules">O QUE <strong>EU </strong>VOU TE <strong>ENSINAR:</strong></h1>
+                        </div>
+                        
+                        <div id="modulos">
+                            <div id="mod1">
+                                <p>
+                                    <div id="module-name">
+                                        <strong>Módulo 1</strong>
+                                        <img src={bookImg} alt=""/>
+                                    </div>
+                                    <br/>
+                                    <br/> <p id="mod1-title">Primeiro Passo/ Estratégias</p> 
+                                    <br/>
+                                    <br/> 1 - Termos que você precisa saber nas operações;
+                                    <br/> 2 - Primeira Estratégia de Cantos (Teórica/Escrita);
+                                    <br/> 3 - Primeira Estratégia de Cantos (Prática/Vídeo);
+                                    <br/> 4 - Segunda Estratégia de Cantos (Teórica/Escrita);
+                                    <br/> 5 - Segunda Estratégia de Cantos (Prática/Vídeo);
+                                    <br/> 6 - Terceira Estratégia de Cantos (Teórica/Escrita);
+                                    <br/> 7 - Terceira Estratégia de Cantos (Prática/Vídeo)
+                                </p>
+                            </div>
+                            <div id="mod2">
+                                <p>
+                                    <div id="module-name">
+                                        <strong>Módulo 2</strong>
+                                        <img src={bookImg} alt=""/>
+                                    </div>
+                                        <br/>
+                                        <br/>  <p id="mod2-title">Handcap/Mindset para crescimento no mercado</p>
+                                        <br/>
+                                        <br/> 1 - Explicação de Handcap (Teórica/Prática);
+                                        <br/> 2 - Perfis de investidor + Gestão de Banca;
+                                        <br/> 3 - Mindset.
+                                </p>
+                            </div>
+                        </div>       
+                    </div>
+                </div>
+            </div> 
         </div>
     )
 }

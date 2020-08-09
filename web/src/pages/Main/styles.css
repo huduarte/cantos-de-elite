@@ -3,17 +3,20 @@
     height: 100vh;
 }
 
+/* //LANDING PAGE */
+
 #landing-title{
     /* Aumentar o width da langind-title e colocar marginright no texto */
-    /* position: fixed; */
+    position: fixed;
     background-color: #0B0B0B;
 
     display: flex;
     justify-content: center;
     align-items: center;
 
+    margin-right: 0.2rem;
     height: 5.5rem;
-    width: 100%;
+    width: 102%;
     
     color: #f2b005;
     font-size: 1.6rem;
@@ -34,19 +37,18 @@
 }
 
 #bgi #text span{
-    margin-top: 2rem;
+    margin-top: 10rem;
     color: rgb(212, 197, 197);
     font-weight: bold;
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     letter-spacing: -.0415625em;
     text-align: center;
 }
-
 #bgi #text #title{
     text-align: center;
     color: rgb(212, 197, 197);
     font-weight: bold;
-    font-size: 2.4rem;
+    font-size: 2.5rem;
     letter-spacing: -.0415625em;
 }
 
@@ -89,6 +91,8 @@
     font-size: 2.4rem;
 }
 
+/* //PERFIL */
+
 #perfil-name{
     display: flex;
     justify-content: center;
@@ -106,7 +110,7 @@
 #perfil h1{
     text-align: center;
     color:#f2b005;
-    margin-top: 50px;
+    margin-top: 3rem;
     height: fit-content;
     
 }
@@ -115,7 +119,7 @@
 }
 
 #perfil #textos{
-    margin-top: 5rem;
+    margin-top: 2rem;
     height: 100%;
 }
 
@@ -149,13 +153,88 @@
     margin-top: 2rem;
 }
 
+/* //MÓDULOS */
 
+#modules{
+    height: 100vh;
+    background-color: rgb(25, 28, 30);;
+}
+
+
+#modules-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f2b005;
+
+}
+
+
+#modules #h1-modules{
+    margin-top: 1rem;
+}
+
+#module-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#module-name img{
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#modulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#modulos #mod1 strong{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    color: #f2b005;
+}
+#mod1-title{
+    margin-top: -1rem;
+}
+
+#modulos #mod1 p{
+    color: ivory;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#modulos #mod2 strong{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    color: #f2b005;
+
+}
+#mod2-title{
+    margin-top: -1rem;
+}
+#modulos #mod2 p{
+    color: ivory;
+}
 
 
 @media(min-width: 700px){
     #page-main{
         max-width: 100%;
     }
+
+    
 
     #bgi{
         background: rgba(0,0,0,.4);
@@ -177,7 +256,7 @@
         margin-top: 3rem;
     }
     #perfil{
-        height: 75vh;
+        height: 110vh;
     }
 
 }
