@@ -15,10 +15,10 @@
     align-items: center;
 
     margin-right: 0.2rem;
-    height: 5.5rem;
+    height: 7rem;
     width: 102%;
     
-    color: #f20d05;
+    color: #f28b05;
     font-size: 1.6rem;
     font-weight: bold;
 }
@@ -27,13 +27,19 @@
     background: rgba(0,0,0,.4);
     background: url(../../assets/images/responsive.jpg) no-repeat center top fixed;
     background-size: cover;
-    height: 120vh;
+    min-height: 100%;
+    max-height: 150%;
 }
 
 #text{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+#content{
+    background-color: #0e0d0db4;
+    height: 100vh;
 }
 
 #video{
@@ -52,28 +58,30 @@
 }
 
 #bgi #text span{
+
     margin-top: 10rem;
-    color: rgb(212, 197, 197);
+    color: #DCDCDC;
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     letter-spacing: -.0415625em;
     text-align: center;
 }
+
 #bgi #text #title{
     text-align: center;
-    color: rgb(212, 197, 197);
+    color: #DCDCDC;
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     letter-spacing: -.0415625em;
 }
 
 #bgi #text strong{
-    /* color:  #f20d05; */
-    color: #f20d05
+    color: #f28b05
 }
 
 
 #bgi #buttonbuy{
+    padding-bottom: 2rem;
     padding-top: 10rem;
     margin: 0;
     display: flex;
@@ -86,23 +94,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:#f15729;
+    background-color:#f12929af;
     text-decoration: none;
     width: 70%;
     height: 6.5rem;
     border-radius: 0.8rem;
-    box-shadow: 0px 0px 10px 0px #f15729;  
+    box-shadow: 0px 0px 10px 0px #f12929af;  
     transition: 400;             
 }
 
 #bgi #buttonbuy a:hover{
-    background-color: #c54720;
-    box-shadow: 0px 0px 10px 0px #c54720;
+    background-color: #f12929da;
+    box-shadow: 0px 0px 10px 0px #f12929da;
     transition: 600ms;
 
 }
+
 #bgi #buttonbuy a span{
-    color: #fff; 
+    color: #DCDCDC;
     font-weight: bold; 
     font-size: 1.6rem;
 }
@@ -118,35 +127,39 @@
 
 #perfil{
     background: #0B0B0B;
-    height: 110%;
+    min-height: 100%;
+    max-height: 200%;
     display: flex;
     flex-direction: column;
+    
 }
 
 #perfil h1{
     text-align: center;
-    color:#f20d05;
+    color:#f28b05;
     margin-top: 3rem;
     height: fit-content;
     
 }
+
 #perfil h1 strong{
-    color:  #f20d05;
+    color:  #f28b05;
 }
 
 #perfil #textos{
     margin-top: 2rem;
-    height: 100%;
+    height: fit-content;
 }
 
 #perfil #textos #textoum{
-    color: white;
+    color: #DCDCDC;
     height: fit-content;
     margin-left: 8rem;
     margin-right: 8rem;
     margin-top: 3rem;
    
 }
+
 #perfil #textos img{
     height: 20rem;
     display: block;
@@ -158,11 +171,11 @@
 }
 
 #perfil #textos p strong{
-    color:  #f20d05;
+    color:  #f28b05;
 }
 
 #perfil #textos #textodois{
-    color: white;
+    color: #DCDCDC;
     height: fit-content;
     margin-left: 8rem;
     margin-right: 8rem;
@@ -172,7 +185,6 @@
 /* //MÓDULOS */
 
 #modules{
-    height: 135vh;
     background-color: rgb(25, 28, 30);;
 }
 
@@ -182,7 +194,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #f20d05;
+    color: #f28b05;
 
 }
 
@@ -192,17 +204,18 @@
     justify-content: center;
     align-items: center;
     font-size: 3rem;
-    margin-top: 1rem;
+    margin-top: 4rem;
 }
 
 #module-name{
+    margin-top: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+
 #module-name img{
-    margin-top: 2.5rem;
     margin-left: 1rem;
     display: flex;
     align-items: center;
@@ -215,11 +228,21 @@
     align-items: center;
 }
 
+#modulos #mod1{
+    margin-top: 5rem;
+    background-color: #0b0b0b5e;
+    border-radius: 0.8rem;
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
 #modulos #mod1 strong{
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
-    color: #f20d05;
+    color: #f28b05;
 }
 #mod1-title{
     margin-top: -1rem;
@@ -227,7 +250,7 @@
 
 #modulos #mod1 p{
     height: 100%;
-    color: ivory;
+    color: #DCDCDC;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -235,11 +258,21 @@
     
 }
 
+#modulos #mod2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3rem;
+    background-color: #0b0b0b5e;
+    border-radius: 0.8rem;
+    width: 80%;
+    height: fit-content
+}
+
 #modulos #mod2 strong{
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
-    color: #f20d05;
+    color: #f28b05;
 
 }
 #mod2-title{
@@ -248,6 +281,15 @@
 #modulos #mod2 p{
     color: ivory;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#results{
+    background-color: #DCDCDC;
+    height: 100vh;
 }
 
 
@@ -259,6 +301,15 @@
     #landing-title{
         width: 102%;
         padding-right: 0.2rem;
+    }
+
+    #content{
+        height: 100%;
+    }
+
+    #bgi #text span,
+    #bgi #text #title{
+        font-size: 4rem;
     }
 
     #bgi{
@@ -285,25 +336,41 @@
         align-items: center;
         margin-top: 3rem;
     }
+
     #perfil{
-        height: 110vh;
+        height: 70vh;
     }
 
     #modulos{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: baseline
+        padding-bottom: 2rem;
     }
 
     #mod1{
-        padding-top: 5rem;
-        padding-left: 20rem;
+        margin-top: 5rem !important;
+        background-color: rgb(25, 28, 30) !important;
+        
+        
+    }
+
+    #mod1 p{
+        background-color: #0b0b0b5e;
+        border-radius: 0.8rem;
+        width: 70%;
     }
 
     #mod2{
-        padding-right: 20rem;
+        background-color: rgb(25, 28, 30) !important;
     }
+
+    #mod2 p{
+        background-color: #0b0b0b5e;
+        border-radius: 0.8rem;
+        width: 70%;
+    }
+    
 
 
 

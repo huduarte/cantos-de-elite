@@ -50,7 +50,7 @@ function Main(){
                                         <img src={bookImg} alt=""/>
                                     </div>
                                     <br/>
-                                    <br/> <p id="mod1-title">Primeiro Passo/ Estratégias</p> 
+                                    <br/> <strong id="mod1-title">Primeiro Passo/ Estratégias:</strong> 
                                     <br/>
                                     <br/> 1 - Termos que você precisa saber nas operações;
                                     <br/>
@@ -71,6 +71,8 @@ function Main(){
                                     <br/>
                                     <br/>
                                     <br/> 7 - Terceira Estratégia de Cantos (Prática/Vídeo)
+                                    <br/>
+                                    <br/>
                                 </p>
                             </div>
                             <div id="mod2">
@@ -80,7 +82,7 @@ function Main(){
                                         <img src={bookImg} alt=""/>
                                     </div>
                                         <br/>
-                                        <br/>  <p id="mod2-title">Handcap/Mindset para crescimento no mercado</p>
+                                        <br/>  <strong id="mod2-title">Handcap/Mindset para crescimento no mercado:</strong>
                                         <br/>
                                         <br/> 1 - Explicação de Handcap (Teórica/Prática);
                                         <br/>
@@ -89,10 +91,16 @@ function Main(){
                                         <br/>
                                         <br/>
                                         <br/> 3 - Mindset.
+                                        <br/>
+                                        <br/>
                                 </p>
                             </div>
+                            <p><br/><br/></p>
                         </div>       
                     </div>
+                </div>
+                <div id="results">
+                    <h1>RESULTADOS</h1>
                 </div>
             </div> 
         </div>
