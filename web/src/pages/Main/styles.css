@@ -28,7 +28,7 @@
     background: url(../../assets/images/responsive.jpg) no-repeat center top fixed;
     background-size: cover;
     min-height: 100%;
-    max-height: 120%;
+    max-height: 130%;
 }
 
 #text{
@@ -39,7 +39,8 @@
 
 #content{
     background-color: #0e0d0db4;
-    height: 100%;
+    min-height: 100%;
+    max-height: 200%;
 }
 
 #video{
@@ -116,6 +117,30 @@
     font-size: 1.6rem;
 }
 
+#price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#price #old-price{
+    color: #DCDCDC;
+    font-weight: bold;
+    font-size: 4.8rem;
+    text-decoration: line-through;
+}
+
+#price #per{
+    color: #DCDCDC;
+    font-size: 3rem;
+}
+
+#price #new-price{
+    font-weight: bold;
+    font-size: 5rem;
+    color: #f28b05;
+}
 /* //PERFIL */
 
 #perfil-name{
@@ -304,7 +329,26 @@
     }
 
     #content{
-        height: 100%;
+        min-height: 100%;
+        max-height: 200%;
+    }
+
+    #price{
+        margin-top: 2rem;
+        height: fit-content;
+    }
+
+    #price #old-price{
+        font-size: 5rem;
+    }
+
+    #price #per{
+        margin-top: 2rem;
+    }
+
+    #price #new-price{
+        margin-top: 2rem;
+        font-size: 7rem;
     }
 
     #bgi #text span,
@@ -316,7 +360,8 @@
         background: rgba(0,0,0,.4);
         background: url(../../assets/images/bgi.jpg) no-repeat center top fixed;
         background-size: cover;
-        height: 130vh;
+        min-height: 100%;
+        max-height: 150%;
     }
     #bgi #buttonbuy a{
         width: 50%;

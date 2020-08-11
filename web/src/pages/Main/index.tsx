@@ -5,6 +5,8 @@ import bookImg from '../../assets/images/icons/book-open.svg'
 
 
 function Main(){
+
+
     return (
         <div id="main">
             <div id="page-main" className="container">
@@ -26,6 +28,16 @@ function Main(){
                                 <span>ADQUIRA O E-BOOK AGORA</span>
                             </a>
                         </div>
+                        <div id="buy">
+                            <div id="price">
+                                <p id="old-price">DE R$497</p>
+                                <p id="per">POR APENAS</p>
+                                <p id="new-price">R$297</p>
+                            </div>
+
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
                 <div id="perfil">
@@ -103,7 +115,6 @@ function Main(){
                     <h1>RESULTADOS</h1>
                 </div>
             </div> 
-        </div>
     )
 }
 
