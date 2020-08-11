@@ -27,9 +27,12 @@ function Main(){
                             </a>
                         </div>
                         <div id="price">
+                            <p id="desconto">Últimas vagas com 40% de desconto</p>
                             <p id="old-price">DE R$497</p>
                             <p id="per">POR APENAS</p>
                             <p id="new-price">R$297</p>
+                            <p id="info1">Acesso Imediato Por Apenas <br/> 12 pagamentos de <strong>R$24,75</strong></p>
+                            <p id="info2">Menos de <strong>R$1</strong> por dia <br/><br/><br/></p>
                         </div>
                     </div>
                 </div>
