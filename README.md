@@ -1,6 +1,7 @@
 <h1 align="center">Cantos de Elite</h1>
 
 ## Descrição do Projeto
+
 <p align="center">Esse site é um projeto feito para um amigo com objetivo de dar uma pegada digital em seu projeto e ajudar nas vendas online.</p>
 
 <h4 align="center"> 
