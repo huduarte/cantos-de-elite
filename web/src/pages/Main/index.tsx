@@ -2,40 +2,44 @@ import React from 'react'
 import './styles.css'
 import perfilImg from '../../assets/images/exemplo.png'
 import bookImg from '../../assets/images/icons/book-open.svg'
+import video from '../../assets/videos/video.mp4'
 
 
 function Main(){
     return (
         <div id="main">
-            <div id="page-main" className="container">
-                <div id="landing-title">
-                    <h1>CANTOS DE ELITE</h1>
-                </div>
-                <div id="bgi">
-                    <div id="content">
-                        <div id="text">
-                            <span>CONHEÇAM OS <strong>MÉTODOS</strong> QUE ME FIZERAM <strong>FATURAR</strong></span>
-                            <p id="title"><br/>5 DÍGITOS <strong>A PARTIR DO ZERO</strong>.</p> 
-                        </div>
-                        <div id="video">
-                            {/* <video src="https://www.youtube.com/watch?v=etZWWS8oEh0"></video> */}
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/etZWWS8oEh0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
-                        </div>
-                        <div id="buttonbuy">
-                            <a href="">
-                                <span>ADQUIRA O E-BOOK AGORA</span>
-                            </a>
-                        </div>
-                        <div id="price">
-                            <p id="desconto">Últimas vagas com 40% de desconto</p>
-                            <p id="old-price">DE R$497</p>
-                            <p id="per">POR APENAS</p>
-                            <p id="new-price">R$297</p>
-                            <p id="info1">Acesso Imediato Por Apenas <br/> 12 pagamentos de <strong>R$24,75</strong></p>
-                            <p id="info2">Menos de <strong>R$1</strong> por dia <br/><br/><br/></p>
-                        </div>
+            <div id="page-main">
+                <div id="cantosdeelite">
+                    <div id="landing-title">
+                        <h1>CANTOS DE ELITE</h1>
+                    </div>
+                    <div id="bgi">
+                        <div id="content">
+                            <div id="text">
+                                <span>CONHEÇAM OS <strong>MÉTODOS</strong> QUE ME FIZERAM <strong>FATURAR</strong></span>
+                                <p id="title"><br/>5 DÍGITOS <strong>A PARTIR DO ZERO</strong>.</p> 
+                            </div>
+                            <div id="video">
+                                {/* <video src="https://www.youtube.com/watch?v=etZWWS8oEh0"></video> */}
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/etZWWS8oEh0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                            </div>
+                            <div id="buttonbuy">
+                                <a href="">
+                                    <span>ADQUIRA O E-BOOK AGORA</span>
+                                </a>
+                            </div>
+                            <div id="price">
+                                <p id="desconto">Últimas vagas com 40% de desconto</p>
+                                <p id="old-price">DE R$497</p>
+                                <p id="per">POR APENAS</p>
+                                <p id="new-price">R$297</p>
+                                <p id="info1">Acesso Imediato Por Apenas <br/> 12 pagamentos de <strong>R$24,75</strong></p>
+                                <p id="info2">Menos de <strong>R$1</strong> por dia <br/><br/><br/></p>
+                            </div>
                     </div>
                 </div>
+                </div>
+                
                 <div id="perfil">
                     <h1 id="perfil-name">QUEM É CAIO PÊPE</h1>
                     <div id="textos">
@@ -108,7 +112,15 @@ function Main(){
                     </div>
                 </div>
                 <div id="results">
-                    <h1>RESULTADOS</h1>
+                    <div id="results-page">
+                        <div id="results-title">
+                            <h1>NOSSOS RESULTADOS</h1>
+                        </div>
+
+                        <div id="video">
+                            <video src={}></video>
+                        </div>
+                    </div>
                 </div>
             </div> 
         </div>
