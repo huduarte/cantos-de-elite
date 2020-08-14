@@ -342,8 +342,6 @@
     background-color: #666666;
     min-height: 100%;
     max-height: 1500%;
-    margin-left: 0.8rem;
-    
 }
 
 #results-title{
@@ -368,8 +366,6 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
     border-radius: 0.8rem;
-    border-style: solid;
-    border-color: #2e2e2e;
 }
 #results #prints img + img{
     margin-top: 2rem;
@@ -389,19 +385,143 @@
 }
 
 #buy #buynow h1{
-    margin-top: 2rem;
-    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    font-size: 2rem;
     color: #f28b05;
+}
+
+#buy #buynow h1 + h1{
+    margin-top: 0;
 }
 
 #buy #buynow h3{
     color: #DCDCDC;
     margin-top: 1rem;
+    margin-right: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2.1rem;
+    font-size: 1.8rem;
 }
+
+#buy #buynow h3 + h3 + h3{
+    margin-top: 0;
+}
+
+#buy #buynow #buy-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#buy #buynow #buy-content p{
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: #DCDCDC;
+}
+
+#buy #buynow #buy-content strong{
+    margin-top: 1rem;
+    color: #f28b05;
+    font-size: 2rem;
+}
+
+#buy #buynow #buy-content #old-price{
+    color: #DCDCDC;
+    margin-top: 4rem;
+    font-weight: bold;
+    font-size: 3.8rem;
+    text-decoration: line-through;
+}
+
+#buy #buynow #buy-content #per{
+    color: #DCDCDC;
+    font-size: 2.5rem;
+}
+
+#buy #buynow #buy-content #new-price{
+    font-weight: bold;
+    font-size: 5rem;
+    color: #f28b05;
+}
+
+#buy #buynow #buy-content #info1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.2rem;
+    color: #DCDCDC;
+    font-size: 2.2rem;
+}
+
+#buy #buynow #buy-content #info1 strong{
+    color: #f28b05
+}
+
+#buy #buynow #buy-content #info2{
+    margin-top: 1.2rem;
+    color: #DCDCDC;
+    font-size: 1.8rem;
+}
+
+#buy #buynow #buy-content #info2 strong{
+    color: #f28b05
+}
+
+#buy #button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#buy #button a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6rem;
+    background-color:#f12929af;
+    text-decoration: none;
+    width: 60%;
+    height: 6.5rem;
+    border-radius: 0.8rem;
+    box-shadow: 0px 0px 10px 0px #f12929af;  
+    transition: 400;  
+    color: #DCDCDC;
+    font-weight: bold; 
+    font-size: 1.8rem;
+}
+
+#buy #button a:hover{
+    background-color: #f12929da;
+    box-shadow: 0px 0px 10px 0px #f12929da;
+    transition: 600ms;
+
+}
+
+#reembolso{
+    height: 100%;
+    max-height: 200%;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f9;
+}
+
+#reembolso p{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 70%;
+    margin-bottom: 5rem;
+}
+
 
 
 @media(min-width: 700px){
@@ -519,7 +639,42 @@
         margin-top: 2rem;
         margin-bottom: 2rem;
         border-radius: 0.8rem;
-        border-style: solid;
-        border-color: #2e2e2e;
+    }
+
+    #buy #buynow h1{
+        font-size: 3.8rem;
+    }
+
+    #buy #buynow h3{
+        font-size: 1.8em;
+    }
+
+    #buy #buynow #buy-content p{
+        font-size: 2.5rem;
+    }
+
+    #buy #buynow #buy-content #old-price{
+        font-size: 5rem;
+    }
+
+    #buy #buynow #buy-content #new-price{
+        font-size: 7rem;
+    }
+
+    #buy #button a{
+        font-size: 2.4rem;
+    }
+
+    #reembolso{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #reembolso p{
+        flex-direction: column;
+    }
+
+    #reembolso img{
+        margin-left: 20rem;
     }
 }

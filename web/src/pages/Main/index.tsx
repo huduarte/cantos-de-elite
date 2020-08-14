@@ -1,5 +1,6 @@
 import React from 'react'
 import './styles.css'
+
 import perfilImg from '../../assets/images/exemplo.png'
 import bookImg from '../../assets/images/icons/book-open.svg'
 import img0 from '../../assets/images/prints/0.jpeg'
@@ -20,6 +21,7 @@ import img14 from '../../assets/images/prints/14.jpeg'
 import img15 from '../../assets/images/prints/15.jpeg'
 import img16 from '../../assets/images/prints/16.jpeg'
 import img17 from '../../assets/images/prints/17.jpeg'
+import reembolso from '../../assets/images/reembolso.png'
 
 
 
@@ -154,20 +156,39 @@ function Main(){
                             <img src={img6} alt=""/>
                             <img src={img1} alt=""/>
                         </div>
+                        <div id="audio">
+                            <audio src=""></audio>
+                        </div>
                     </div>
                 </div>
                 <div id="buy">
                     <div id="buynow">
                         <div id="title">
-                            <h1>GARANTA AGORA ACESSO AO MEU E-BOOK</h1>
+                            <h1>GARANTA AGORA ACESSO </h1>
+                            <h1>AO MEU E-BOOK</h1>
                             <h3>Não perca essa oportunidade</h3>
-                            <h3>Aproveite uma condição especial por tempo limitado:</h3>
+                            <h3>Aproveite uma condição especial</h3>
+                            <h3>por tempo limitado:</h3>
                         </div>
-                        <div id="buy-content">
-                            <p id="info1">Acesso Imediato Por Apenas <br/> 12 pagamentos de <strong>R$24,75</strong></p>
-                            <p id="info2">Menos de <strong>R$1</strong> por dia <br/><br/><br/></p>
-                        </div>
+                    <div id="buy-content">
+                        <p id="old-price">DE R$497</p>
+                        <p id="per">POR APENAS</p>
+                        <p id="new-price">R$297</p>
+                        <p id="info1">Acesso Imediato Por Apenas</p>
+                        <p>12 pagamentos de </p>
+                        <strong>R$24,75</strong>
+                        <p id="info2">Menos de <strong>R$1</strong> por dia <br/><br/><br/></p>
                     </div>
+                    <div id="button">
+                        <a href="#">
+                            COMPRE AGORA
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                <div id="reembolso">
+                    <img src={reembolso} alt=""/>
+                    <p>Por não ter histórico de reembolso, se em 7 dias você não gostar do conteúdo, <br/>ou por algum motivo achar que não faz sentido para você, <br/>eu devolvo 100% do seu dinheiro de volta. <br/>Basta nos enviar um e-mail solicitando reembolso.</p>
                 </div>
             </div> 
         </div>
