@@ -2,7 +2,25 @@ import React from 'react'
 import './styles.css'
 import perfilImg from '../../assets/images/exemplo.png'
 import bookImg from '../../assets/images/icons/book-open.svg'
-import video from '../../assets/videos/video.mp4'
+import img0 from '../../assets/images/prints/0.jpeg'
+import img1 from '../../assets/images/prints/1.jpeg'
+import img2 from '../../assets/images/prints/2.jpeg'
+import img3 from '../../assets/images/prints/3.jpeg'
+import img4 from '../../assets/images/prints/4.jpeg'
+import img5 from '../../assets/images/prints/5.jpeg'
+import img6 from '../../assets/images/prints/6.jpeg'
+import img7 from '../../assets/images/prints/7.jpeg'
+import img8 from '../../assets/images/prints/8.jpeg'
+import img9 from '../../assets/images/prints/9.jpeg'
+import img10 from '../../assets/images/prints/10.jpeg'
+import img11 from '../../assets/images/prints/11.jpeg'
+import img12 from '../../assets/images/prints/12.jpeg'
+import img13 from '../../assets/images/prints/13.jpeg'
+import img14 from '../../assets/images/prints/14.jpeg'
+import img15 from '../../assets/images/prints/15.jpeg'
+import img16 from '../../assets/images/prints/16.jpeg'
+import img17 from '../../assets/images/prints/17.jpeg'
+
 
 
 function Main(){
@@ -116,9 +134,38 @@ function Main(){
                         <div id="results-title">
                             <h1>NOSSOS RESULTADOS</h1>
                         </div>
-
-                        <div id="video">
-                            <video src={}></video>
+                        <div id="prints">
+                            <img src={img0} alt=""/>
+                            <img src={img17} alt=""/>
+                            <img src={img5} alt=""/>                            
+                            <img src={img3} alt=""/>
+                            <img src={img7} alt=""/>
+                            <img src={img4} alt=""/>
+                            <img src={img8} alt=""/>
+                            <img src={img14} alt=""/>
+                            <img src={img16} alt=""/>
+                            <img src={img9} alt=""/>
+                            <img src={img10} alt=""/>
+                            <img src={img15} alt=""/>
+                            <img src={img2} alt=""/>
+                            <img src={img13} alt=""/>
+                            <img src={img12} alt=""/>
+                            <img src={img11} alt=""/>
+                            <img src={img6} alt=""/>
+                            <img src={img1} alt=""/>
+                        </div>
+                    </div>
+                </div>
+                <div id="buy">
+                    <div id="buynow">
+                        <div id="title">
+                            <h1>GARANTA AGORA ACESSO AO MEU E-BOOK</h1>
+                            <h3>Não perca essa oportunidade</h3>
+                            <h3>Aproveite uma condição especial por tempo limitado:</h3>
+                        </div>
+                        <div id="buy-content">
+                            <p id="info1">Acesso Imediato Por Apenas <br/> 12 pagamentos de <strong>R$24,75</strong></p>
+                            <p id="info2">Menos de <strong>R$1</strong> por dia <br/><br/><br/></p>
                         </div>
                     </div>
                 </div>

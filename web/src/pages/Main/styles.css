@@ -340,7 +340,8 @@
 
 #results{
     background-color: #666666;
-    height: 100vh;
+    min-height: 100%;
+    max-height: 1500%;
     margin-left: 0.8rem;
     
 }
@@ -352,6 +353,54 @@
     background-color: #14805e;
     height: 6.5rem;
     color: #C5CB29;
+}
+
+#results #prints{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+#results #prints img{
+    width: 50%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.8rem;
+    border-style: solid;
+    border-color: #2e2e2e;
+}
+#results #prints img + img{
+    margin-top: 2rem;
+}
+
+#buy{
+    background-color: #0B0B0B;
+
+}
+
+#buy #buynow{
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#buy #buynow h1{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    color: #f28b05;
+}
+
+#buy #buynow h3{
+    color: #DCDCDC;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.1rem;
 }
 
 
@@ -424,6 +473,7 @@
     }
 
     #modulos{
+        align-items: baseline;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -451,5 +501,25 @@
         background-color: #0b0b0b5e;
         border-radius: 0.8rem;
         width: 70%;
+    }
+
+    #results{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #results #prints{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr
+    }
+
+    #results #prints img{
+        margin-left: 5rem;
+        width: 70%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 0.8rem;
+        border-style: solid;
+        border-color: #2e2e2e;
     }
 }
