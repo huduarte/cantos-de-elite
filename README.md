@@ -10,10 +10,10 @@
 
 ### Features
 
-- [ ] Criar page de prints e vídeos
-- [ ] Page da compra do e-book
-- [ ] Depoimentos
-- [ ] Reembolso
+- [x] Criar page de prints e vídeos
+- [x] Page da compra do e-book
+- [x] Depoimentos
+- [x] Reembolso
 
 ### 🛠 Tecnologias
 
