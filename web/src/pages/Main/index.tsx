@@ -44,7 +44,7 @@ function Main(){
                             </div>
                             <div id="buttonbuy">
                                 <a href="">
-                                    <span>ADQUIRA O E-BOOK AGORA</span>
+                                    <span>ADQUIRA O E-BOOK AGORA!</span>
                                 </a>
                             </div>
                             <div id="price">
