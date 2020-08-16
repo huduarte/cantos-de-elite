@@ -40,7 +40,6 @@ function Main(){
                                 <p id="title"><br/>5 DÍGITOS <strong>A PARTIR DO ZERO</strong>.</p> 
                             </div>
                             <div id="video">
-                                {/* <video src="https://www.youtube.com/watch?v=etZWWS8oEh0"></video> */}
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/etZWWS8oEh0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
                             </div>
                             <div id="buttonbuy">
