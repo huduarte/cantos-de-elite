@@ -13,7 +13,11 @@
 - [x] Criar page de prints e vídeos
 - [x] Page da compra do e-book
 - [x] Depoimentos
+- [ ] Depoimentos em vídeo
 - [x] Reembolso
+- [ ] Vídeo oficial da divulgação do e-book
+- [ ] Contador
+
 
 ### 🛠 Tecnologias
 
