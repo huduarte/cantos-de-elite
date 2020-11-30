@@ -25,7 +25,7 @@
 
 #bgi{
     background: rgba(0,0,0,.4);
-    background: url(../../assets/images/responsive.jpg) no-repeat center top fixed;
+    background: url(./assets/images/responsive.jpg) no-repeat center top fixed;
     background-size: cover;
     min-height: 100%;
     max-height: 150%;
@@ -575,7 +575,7 @@
 
     #bgi{
         background: rgba(0,0,0,.4);
-        background: url(../../assets/images/bgi.jpg) no-repeat center top fixed;
+        background: url(./assets/images/bgi.jpg) no-repeat center top fixed;
         background-size: cover;
         min-height: 100%;
         max-height: 200%;
