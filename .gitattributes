@@ -1,0 +1,4 @@
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+video_principal.mp4 filter=lfs diff=lfs merge=lfs -text
+video_depoimento1.mp4 filter=lfs diff=lfs merge=lfs -text
+video_depoimento2.mp4 filter=lfs diff=lfs merge=lfs -text
