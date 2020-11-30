@@ -1,0 +1,705 @@
+#page-main{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* //LANDING PAGE */
+
+#landing-title{
+    /* Aumentar o width da langind-title e colocar marginright no texto */
+    position: fixed;
+    background-color: #0B0B0B;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 0.2rem;
+    height: 7rem;
+    width: 102%;
+
+    color: #f28b05;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#bgi{
+    background: rgba(0,0,0,.4);
+    background: url(../../assets/images/responsive.jpg) no-repeat center top fixed;
+    background-size: cover;
+    min-height: 100%;
+    max-height: 150%;
+}
+
+#text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#content{
+    background-color: #0e0d0db4;
+}
+
+#video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#video #first-video{
+    width: 365px;
+    height: 500px;
+}
+
+#bgi #text span{
+
+    margin-top: 10rem;
+    color: #DCDCDC;
+    font-weight: bold;
+    font-size: 2.3rem;
+    letter-spacing: -.0415625em;
+    text-align: center;
+}
+
+#bgi #text #title{
+    text-align: center;
+    color: #DCDCDC;
+    font-weight: bold;
+    font-size: 2.3rem;
+    letter-spacing: -.0415625em;
+}
+
+#bgi #text strong{
+    color: #f28b05
+}
+
+
+#bgi #buttonbuy{
+    padding-bottom: 2rem;
+    padding-top: 4rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+#bgi #buttonbuy a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#f12929af;
+    text-decoration: none;
+    width: 70%;
+    height: 6.5rem;
+    border-radius: 0.8rem;
+    box-shadow: 0px 0px 10px 0px #f12929af;
+    transition: 400;
+}
+
+#bgi #buttonbuy a:hover{
+    background-color: #f12929da;
+    box-shadow: 0px 0px 10px 0px #f12929da;
+    transition: 600ms;
+
+}
+
+#bgi #buttonbuy a span{
+    color: #DCDCDC;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#price #desconto{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #DCDCDC;
+    font-size: 2.2rem;
+}
+
+#price #old-price{
+    color: #DCDCDC;
+    font-weight: bold;
+    font-size: 4.8rem;
+    text-decoration: line-through;
+}
+
+#price #per{
+    color: #DCDCDC;
+    font-size: 3rem;
+}
+
+#price #new-price{
+    font-weight: bold;
+    font-size: 5rem;
+    color: #f28b05;
+}
+
+#price #info1{
+    margin-top: 1.2rem;
+    color: #DCDCDC;
+    font-size: 1.6rem;
+}
+
+#price #info1 strong{
+    color: #f28b05
+}
+
+#price #info2{
+    margin-top: 1.2rem;
+    color: #DCDCDC;
+    font-size: 1.3rem;
+}
+
+#price #info2 strong{
+    color: #f28b05
+}
+/* //PERFIL */
+
+#perfil-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+#perfil-img{
+    width: 400px;
+    height: 400px;
+    display: flex;
+}
+
+#perfil #textos img{
+    border-radius: 50%;
+}
+
+#perfil{
+    background: #0B0B0B;
+    min-height: 100%;
+    max-height: 200%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#perfil h1{
+    text-align: center;
+    color:#f28b05;
+    margin-top: 3rem;
+    height: fit-content;
+
+}
+
+#perfil h1 strong{
+    color:  #f28b05;
+    height: 100px;
+}
+
+#perfil #textos{
+    margin-top: 2rem;
+    height: min-content;
+}
+
+#perfil #textos #textoum{
+    color: #DCDCDC;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+
+}
+
+#perfil #textos img{
+    height: 20rem;
+    width: 90%;
+    display: block;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+
+}
+
+#perfil #textos p strong{
+    color:  #f28b05;
+}
+
+#perfil #textos #textodois{
+    color: #DCDCDC;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+/* //MÓDULOS */
+
+#modules{
+    background-color: rgb(25, 28, 30);;
+}
+
+
+#modules-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f28b05;
+
+}
+
+
+#modules #h1-modules{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    margin-top: 4rem;
+}
+
+#module-name{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#module-name img{
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#modulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#modulos #mod1{
+    margin-top: 5rem;
+    background-color: #0b0b0b5e;
+    border-radius: 0.8rem;
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+#modulos #mod1 strong{
+    display: flex;
+    justify-content: center;
+    color: #f28b05;
+}
+#mod1-title{
+}
+
+#modulos #mod1 p{
+    height: 100%;
+    color: #DCDCDC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#modulos #mod2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3rem;
+    background-color: #0b0b0b5e;
+    border-radius: 0.8rem;
+    width: 80%;
+    height: fit-content
+}
+
+#modulos #mod2 strong{
+    display: flex;
+    justify-content: center;
+    color: #f28b05;
+
+}
+#mod2-title{
+}
+#modulos #mod2 p{
+    color: ivory;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#results{
+    background-color: #666666;
+    min-height: 100%;
+    max-height: 1500%;
+}
+
+#results-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #14805e;
+    height: 6.5rem;
+    color: #C5CB29;
+}
+
+#results #video-result video{
+    margin-top: 50px;
+}
+
+#results #prints{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 100%;
+}
+
+#results #prints img{
+    width: 50%;
+    margin-top: 2rem;
+    border-radius: 0.8rem;
+}
+#results #prints img + img{
+    margin-top: 2rem;
+}
+
+#buy{
+    background-color: #0B0B0B;
+}
+
+#buy #buynow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#buy #buynow h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    font-size: 1.6rem;
+    color: #f28b05;
+}
+
+#buy #buynow h1 + h1{
+    margin-top: 0;
+}
+
+#buy #buynow h3{
+    color: #DCDCDC;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+#buy #buynow h3 + h3 + h3{
+    margin-top: 0;
+}
+
+#buy #buynow #buy-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#buy #buynow #buy-content p{
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    color: #DCDCDC;
+}
+
+#buy #buynow #buy-content strong{
+    margin-top: 1rem;
+    color: #f28b05;
+    font-size: 2rem;
+}
+
+#buy #buynow #buy-content #old-price{
+    color: #DCDCDC;
+    margin-top: 4rem;
+    font-weight: bold;
+    font-size: 3.8rem;
+    text-decoration: line-through;
+}
+
+#buy #buynow #buy-content #per{
+    color: #DCDCDC;
+    font-size: 2.5rem;
+}
+
+#buy #buynow #buy-content #new-price{
+    font-weight: bold;
+    font-size: 5rem;
+    color: #f28b05;
+}
+
+#buy #buynow #buy-content #info1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.2rem;
+    color: #DCDCDC;
+    font-size: 1.5rem;
+}
+
+#buy #buynow #buy-content #info1 strong{
+    color: #f28b05
+}
+
+#buy #buynow #buy-content #info2{
+    margin-top: 1.2rem;
+    color: #DCDCDC;
+    font-size: 1.8rem;
+}
+
+#buy #buynow #buy-content #info2 strong{
+    color: #f28b05
+}
+
+#buy #button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#buy #button a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6rem;
+    background-color:#f12929af;
+    text-decoration: none;
+    width: 60%;
+    height: 6.5rem;
+    border-radius: 0.8rem;
+    box-shadow: 0px 0px 10px 0px #f12929af;
+    transition: 400;
+    color: #DCDCDC;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+#buy #button a:hover{
+    background-color: #f12929da;
+    box-shadow: 0px 0px 10px 0px #f12929da;
+    transition: 600ms;
+
+}
+
+#reembolso img {
+    margin-top: 100px;
+}
+#reembolso{
+    height: 100%;
+    max-height: 200%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f9;
+}
+
+#reembolso p{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 70%;
+    margin-bottom: 5rem;
+    color: #0B0B0B;
+}
+
+
+
+@media(min-width: 700px){
+    #page-main{
+        max-width: 100%;
+    }
+
+    #landing-title{
+        padding-right: 0.2rem;
+    }
+
+    #content{
+        min-height: 100%;
+        max-height: 200%;
+    }
+
+    #price{
+        margin-top: 1rem;
+        height: fit-content;
+    }
+
+    #price #old-price{
+        font-size: 5rem;
+    }
+
+    #price #per{
+        margin-top: 1rem;
+    }
+
+    #price #new-price{
+        font-size: 7rem;
+    }
+
+    #bgi #text span,
+    #bgi #text #title{
+        font-size: 2.5rem;
+    }
+
+    #bgi{
+        background: rgba(0,0,0,.4);
+        background: url(../../assets/images/bgi.jpg) no-repeat center top fixed;
+        background-size: cover;
+        min-height: 100%;
+        max-height: 200%;
+    }
+
+    #bgi #buttonbuy a{
+        width: 50%;
+    }
+    #bgi #buttonbuy a span{
+        font-size: 2rem;
+    }
+
+    #video #first-video{
+        width: 600px;
+        height: 500px;
+    }
+
+    #textos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+    }
+
+    #perfil{
+        height: 80vh !important;
+        min-height: 60%;
+    }
+
+    #perfil #textos #textoum{
+        height: fit-content;
+        margin-left: 10px;
+        margin-right: auto;
+    }
+    #perfil #textos #textodois{
+        height: fit-content;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #perfil #textos img{
+        width: auto !important;
+    }
+
+    #modulos{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #mod1{
+        flex-direction: column;
+        width: 90% !important;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    #mod2{
+        flex-direction: column;
+        width: 90% !important;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 50px;
+    }
+
+    #results{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #results #video-result{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #results #prints{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr
+    }
+
+    #results #prints img{
+        margin-left: 5rem;
+        width: 70%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 0.8rem;
+    }
+
+    #buy #buynow h1{
+        font-size: 2.8rem;
+    }
+
+    #buy #buynow h3{
+        font-size: 1.3em;
+    }
+
+    #buy #buynow #buy-content p{
+        font-size: 2.2rem;
+    }
+
+    #buy #buynow #buy-content #old-price{
+        font-size: 4rem;
+    }
+
+    #buy #buynow #buy-content #new-price{
+        font-size: 5.3rem;
+    }
+
+    #buy #button a{
+        width: 40%;
+        font-size: 2rem;
+    }
+
+    #reembolso{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #reembolso p{
+        flex-direction: column;
+    }
+
+    #reembolso img{
+        margin-left: 2rem;
+        margin-top: 0rem !important;
+    }
+}
