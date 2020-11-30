@@ -174,12 +174,12 @@ const Main: React.FC = () => {
                             <h3>por tempo limitado:</h3>
                         </div>
                     <div id="buy-content">
-                        <p id="old-price">DE R$497</p>
+                        <p id="old-price">DE R$297</p>
                         <p id="per">POR APENAS</p>
-                        <p id="new-price">R$297</p>
+                        <p id="new-price">R$150</p>
                         <p id="info1">Acesso Imediato Por Apenas</p>
                         <p>12 pagamentos de </p>
-                        <strong>R$24,75</strong>
+                        <strong>R$12,50</strong>
                         <p id="info2">Menos de <strong>R$1</strong> por dia <br/><br/><br/></p>
                     </div>
                     <div id="button">
