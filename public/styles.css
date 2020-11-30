@@ -108,7 +108,7 @@
 #bgi #buttonbuy a span{
     color: #DCDCDC;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 #price{
@@ -361,8 +361,30 @@
     color: #C5CB29;
 }
 
-#results #video-result video{
+#video iframe{
     margin-top: 50px;
+    width: 380px;
+    height: 315px;
+}
+#video-result{
+    display: flex;
+    flex-direction: column;
+}
+
+#video-result #depoimento_1{
+    margin-top: 20px;
+    width: 350px;
+    height: 315px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#video-result #depoimento_2{
+    margin-top: 20px;
+    height: 315px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #results #prints{
@@ -551,6 +573,27 @@
         max-height: 200%;
     }
 
+    #video iframe{
+        margin-top: 50px;
+        width: 560px;
+        height: 315px;
+    }
+
+    #video-result{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #video-result #depoimento_1{
+        height: 560px;
+        width: 350px;
+    }
+    
+    #video-result #depoimento_2{
+        height: 560px;
+        width: 350px;
+    }
+
     #price{
         margin-top: 1rem;
         height: fit-content;
@@ -585,7 +628,7 @@
         width: 50%;
     }
     #bgi #buttonbuy a span{
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     #video #first-video{

@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/jpg" href="./assets/images/responsive.jpg"/>
+<link rel="icon" type="image/png" href="https://example.com/favicon.png"/>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="global.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
@@ -22,9 +24,13 @@
               <p id="title"><br/>5 DÍGITOS <strong>A PARTIR DO ZERO</strong>.</p>
             </div>
             <div id="video">
-              <video controls="controls" id="first-video">
-              <source src="video_principal.mp4" type="video/mp4">
-              <embed width="320" height="240" src="video_principal.mp4">
+              <iframe 
+                id="video-result"
+                src="https://www.youtube.com/embed/v_2DFqmNsi0" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+              </iframe>
             </div>
             <div id="buttonbuy">
               <a href="">
@@ -46,7 +52,7 @@
         <h1 id="perfil-name">QUEM É CAIO PÊPE</h1>
         <div id="textos">
           <p id="textoum">Meu nome é <strong>Caio Pêpe</strong>, tenho <strong>18 anos</strong> e sempre fui fascinado em fontes ativas de renda. No ano de 2020 consegui sair do absoluto zero a faturamentos de até <strong>cinco dígitos com o trade esportivo</strong>, sendo capaz de ajudar minha família e sair das asas dos meus pais fazendo <strong>a minha própria renda</strong>.</p>
-          <img src="./assets/images/perfil.jpeg" alt="Imagem de Perfil" id="perfil-img"/>
+          <img src="./assets/images/foto_perfil.png" alt="Imagem de Perfil" id="perfil-img"/>
           <p id="textodois"><strong>Nessa nova jornada</strong> quero trazer essa mesma <strong>independência</strong> para vocês, e lhes mostrar que tudo pode ser alcançado através de <strong>persistência e consistência</strong> juntamente a um trabalho de médio a longo prazo e estratégias utilizadas pela <strong>elite dos apostadores</strong>. Vamos juntos que te mostro <strong>o lado vencedor</strong>! </p>
         </div>
       </div>
@@ -124,16 +130,8 @@
             <h1>NOSSOS RESULTADOS</h1>
           </div>
           <div id="video-result">
-            <div id="video">
-              <video width="365" height="500" controls="controls">
-              <source src="video_depoimento1.mp4" type="video/mp4">
-              <embed width="320" height="240" src="video_depoimento1.mp4">
-            </div>
-            <div id="video">
-              <video width="365" height="500" controls="controls">
-              <source src="video_depoimento2.mp4" type="video/mp4">
-              <embed width="320" height="240" src="video_depoimento2.mp4">
-            </div>
+            <iframe id="depoimento_1" src="https://www.youtube.com/embed/fWW7al0hGqU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id="depoimento_2" src="https://www.youtube.com/embed/DOBOSa_rim0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div id="prints">
             <img src="./assets/images/prints/0.jpeg"alt=""/>
