@@ -18,7 +18,7 @@
     height: 7rem;
     width: 102%;
 
-    color: #f28b05;
+    color: #83FD04;
     font-size: 1.2rem;
     font-weight: bold;
 }
@@ -71,7 +71,7 @@
 }
 
 #bgi #text strong{
-    color: #f28b05
+    color: #83FD04
 }
 
 
@@ -89,18 +89,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:#f12929af;
+    background-color:#5bac04;
     text-decoration: none;
     width: 70%;
     height: 6.5rem;
     border-radius: 0.8rem;
-    box-shadow: 0px 0px 10px 0px #f12929af;
+    box-shadow: 0px 0px 10px 0px #5bac04;
     transition: 400;
 }
 
 #bgi #buttonbuy a:hover{
-    background-color: #f12929da;
-    box-shadow: 0px 0px 10px 0px #f12929da;
+    background-color: #468602;
+    box-shadow: 0px 0px 10px 0px #468602;
     transition: 600ms;
 
 }
@@ -141,7 +141,7 @@
 #price #new-price{
     font-weight: bold;
     font-size: 5rem;
-    color: #f28b05;
+    color: #83FD04;
 }
 
 #price #info1{
@@ -151,7 +151,7 @@
 }
 
 #price #info1 strong{
-    color: #f28b05
+    color: #83FD04
 }
 
 #price #info2{
@@ -161,7 +161,7 @@
 }
 
 #price #info2 strong{
-    color: #f28b05
+    color: #83FD04
 }
 /* //PERFIL */
 
@@ -193,14 +193,14 @@
 
 #perfil h1{
     text-align: center;
-    color:#f28b05;
+    color:#83FD04;
     margin-top: 3rem;
     height: fit-content;
 
 }
 
 #perfil h1 strong{
-    color:  #f28b05;
+    color:  #83FD04;
     height: 100px;
 }
 
@@ -230,7 +230,7 @@
 }
 
 #perfil #textos p strong{
-    color:  #f28b05;
+    color:  #83FD04;
 }
 
 #perfil #textos #textodois{
@@ -253,7 +253,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #f28b05;
+    color: #83FD04;
 
 }
 
@@ -302,7 +302,7 @@
 #modulos #mod1 strong{
     display: flex;
     justify-content: center;
-    color: #f28b05;
+    color: #83FD04;
 }
 #mod1-title{
 }
@@ -332,7 +332,7 @@
 #modulos #mod2 strong{
     display: flex;
     justify-content: center;
-    color: #f28b05;
+    color: #83FD04;
 
 }
 #mod2-title{
@@ -422,7 +422,7 @@
     justify-content: center;
     margin-top: 4rem;
     font-size: 1.6rem;
-    color: #f28b05;
+    color: #83FD04;
 }
 
 #buy #buynow h1 + h1{
@@ -457,7 +457,7 @@
 
 #buy #buynow #buy-content strong{
     margin-top: 1rem;
-    color: #f28b05;
+    color: #83FD04;
     font-size: 2rem;
 }
 
@@ -477,7 +477,7 @@
 #buy #buynow #buy-content #new-price{
     font-weight: bold;
     font-size: 5rem;
-    color: #f28b05;
+    color: #83FD04;
 }
 
 #buy #buynow #buy-content #info1{
@@ -490,7 +490,7 @@
 }
 
 #buy #buynow #buy-content #info1 strong{
-    color: #f28b05
+    color: #83FD04
 }
 
 #buy #buynow #buy-content #info2{
@@ -500,7 +500,7 @@
 }
 
 #buy #buynow #buy-content #info2 strong{
-    color: #f28b05
+    color: #83FD04
 }
 
 #buy #button{
@@ -514,12 +514,12 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 6rem;
-    background-color:#f12929af;
+    background-color:#5bac04;
     text-decoration: none;
     width: 60%;
     height: 6.5rem;
     border-radius: 0.8rem;
-    box-shadow: 0px 0px 10px 0px #f12929af;
+    box-shadow: 0px 0px 10px 0px #5bac04;
     transition: 400;
     color: #DCDCDC;
     font-weight: bold;
@@ -527,8 +527,8 @@
 }
 
 #buy #button a:hover{
-    background-color: #f12929da;
-    box-shadow: 0px 0px 10px 0px #f12929da;
+    background-color: #468602;
+    box-shadow: 0px 0px 10px 0px #468602;
     transition: 600ms;
 
 }
