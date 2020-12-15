@@ -77,7 +77,12 @@
     text-align: center;
 }
 
+#text span{
+    text-shadow: 2px 4px #0B0B0B;
+}
+
 #bgi #text #title{
+    text-shadow: 2px 4px #0B0B0B;
     text-align: center;
     color: #DCDCDC;
     font-weight: bold;
