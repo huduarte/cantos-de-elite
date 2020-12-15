@@ -622,11 +622,11 @@
 }
 
 #reembolso img {
-    margin-top: 200px;
+    margin-top: 100px;
 }
 #reembolso{
     height: 100%;
-    max-height: 250%;
+    max-height: 200%;
     display: flex;
     flex-direction: column;
     justify-content: center;
