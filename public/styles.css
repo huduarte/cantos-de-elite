@@ -8,7 +8,7 @@
 #landing-title{
     /* Aumentar o width da langind-title e colocar marginright no texto */
     position: fixed;
-    background-color: #0B0B0B;
+    background-color: #1F5443;
 
     display: flex;
     justify-content: center;
@@ -21,6 +21,10 @@
     color: #83FD04;
     font-size: 1.2rem;
     font-weight: bold;
+}
+
+#landing-title #title-image{
+    height: 200%;
 }
 
 #bgi{
@@ -39,6 +43,17 @@
 
 #content{
     background-color: #0e0d0db4;
+}
+
+#content #description {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #DCDCDC;
 }
 
 #video{
@@ -71,7 +86,8 @@
 }
 
 #bgi #text strong{
-    color: #83FD04
+    color: #83FD04;
+    font-weight: bold;
 }
 
 
@@ -111,59 +127,38 @@
     font-size: 1rem;
 }
 
-#price{
+#missao{
+    padding-bottom: 50px;
+}
+
+#missao-description{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#image{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
-#price #desconto{
-    display: flex;
-    justify-content: center;
+
+#image img{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50% !important;
+}
+
+#missao-description #missao-text{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #DCDCDC;
     text-align: center;
-    color: #DCDCDC;
-    font-size: 2.2rem;
 }
-
-#price #old-price{
-    color: #DCDCDC;
-    font-weight: bold;
-    font-size: 4.8rem;
-    text-decoration: line-through;
-}
-
-#price #per{
-    color: #DCDCDC;
-    font-size: 3rem;
-}
-
-#price #new-price{
-    font-weight: bold;
-    font-size: 5rem;
-    color: #83FD04;
-}
-
-#price #info1{
-    margin-top: 1.2rem;
-    color: #DCDCDC;
-    font-size: 1.6rem;
-}
-
-#price #info1 strong{
-    color: #83FD04
-}
-
-#price #info2{
-    margin-top: 1.2rem;
-    color: #DCDCDC;
-    font-size: 1.3rem;
-}
-
-#price #info2 strong{
-    color: #83FD04
-}
-/* //PERFIL */
 
 #perfil-name{
     display: flex;
@@ -215,18 +210,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 3rem;
-
-}
-
-#perfil #textos img{
-    height: 20rem;
-    width: 90%;
-    display: block;
-    margin-top: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-
+    text-align: justify;
 }
 
 #perfil #textos p strong{
@@ -239,14 +223,119 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
+    text-align: justify;
 }
 
-/* //MÓDULOS */
+#perfil #textos img{
+    height: 20rem;
+    width: 90%;
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+
+}
+
+
+#start-kit{
+    background-color:#020202;
+}
+#start-kit #start-kit-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.6rem;
+    color: #83FD04;
+    height: 100px;
+}
+
+#start-kit #phone{
+    margin-top: 100px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#start-kit #phone img{
+    height: 80px;
+}
+
+#start-kit #phone #phone-title{
+    text-align: center;
+    font-size: 24px;
+    color: #83FD04;
+    margin-top: 15px;
+}
+
+#start-kit #phone #phone-description{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+#start-kit #money{
+    margin-top: 100px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#start-kit #money img{
+    height: 80px;
+}
+
+#start-kit #money #money-title{
+    text-align: center;
+    font-size: 24px;
+    color: #83FD04;
+    margin-top: 15px;
+}
+
+#start-kit #money #money-description{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+#start-kit #ball{
+    margin-top: 100px;
+    padding-bottom: 50px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#start-kit #ball img{
+    height: 70px;
+}
+
+#start-kit #ball #ball-title{
+    text-align: center;
+    font-size: 24px;
+    color: #83FD04;
+    margin-top: 15px;
+}
+
+#start-kit #ball #ball-description{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
 
 #modules{
     background-color: rgb(25, 28, 30);;
 }
-
 
 #modules-title{
     display: flex;
@@ -256,7 +345,6 @@
     color: #83FD04;
 
 }
-
 
 #modules #h1-modules{
     display: flex;
@@ -304,9 +392,6 @@
     justify-content: center;
     color: #83FD04;
 }
-#mod1-title{
-}
-
 #modulos #mod1 p{
     height: 100%;
     color: #DCDCDC;
@@ -334,8 +419,6 @@
     justify-content: center;
     color: #83FD04;
 
-}
-#mod2-title{
 }
 #modulos #mod2 p{
     color: ivory;
@@ -564,6 +647,19 @@
         max-width: 100%;
     }
 
+    #bgi #text span,
+    #bgi #text #title{
+        font-size: 2.5rem;
+    }
+
+    #bgi{
+        background: rgba(0,0,0,.4);
+        background: url(./assets/images/bgi.jpg) no-repeat center top fixed;
+        background-size: cover;
+        min-height: 100%;
+        max-height: 200%;
+    }
+
     #landing-title{
         padding-right: 0.2rem;
     }
@@ -594,6 +690,10 @@
         width: 350px;
     }
 
+    #content #description {
+        width: 60% !important;
+    }
+
     #price{
         margin-top: 1rem;
         height: fit-content;
@@ -609,19 +709,6 @@
 
     #price #new-price{
         font-size: 7rem;
-    }
-
-    #bgi #text span,
-    #bgi #text #title{
-        font-size: 2.5rem;
-    }
-
-    #bgi{
-        background: rgba(0,0,0,.4);
-        background: url(./assets/images/bgi.jpg) no-repeat center top fixed;
-        background-size: cover;
-        min-height: 100%;
-        max-height: 200%;
     }
 
     #bgi #buttonbuy a{
@@ -643,24 +730,55 @@
         margin-top: 3rem;
     }
 
+    #missao{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+
+    #missao #missao-text{
+        text-align: justify;
+    }
+
     #perfil{
         height: 80vh !important;
         min-height: 60%;
+        
+    }
+
+    #perfil #textos{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #perfil #textos #textoum{
         height: fit-content;
         margin-left: 10px;
         margin-right: auto;
+        text-align: justify;
+        font-size: 1.2rem;
     }
     #perfil #textos #textodois{
         height: fit-content;
         margin-left: 10px;
         margin-right: 10px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
     }
 
     #perfil #textos img{
         width: auto !important;
+    }
+
+    #start-kit #start-kit-content{
+        display: flex;
+        align-items: baseline;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 50px;
     }
 
     #modulos{
