@@ -27,10 +27,11 @@
     }
 
     #rewards #receive{
-        justify-content: center;
-        align-items: center;
-        margin-top: 0;
+        display: flex;
+        justify-content:stretch;
+        align-items: baseline;
         flex-direction: row;
+        margin-top: 0;
     }
 
     #rewards #get-group-button{
