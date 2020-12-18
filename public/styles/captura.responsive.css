@@ -1,92 +1,129 @@
-@media(min-width: 700px){
-    #initial-content{
-        display: flex;
-        width: 70%;
-    }
+@media (min-width: 700px) {
+  #initial-content {
+    display: flex;
+    width: 70%;
+  }
 
-    #initial-content h1{
-        font-size: 2rem;
-    }
+  #initial-content h1 {
+    font-size: 2rem;
+  }
 
-    #initial-content #input-name{
-        padding: 1rem;
-        width: 40%;
-    }
+  #initial-content #input-name {
+    padding: 1rem;
+    width: 45%;
+  }
 
-    #initial-content #input-email{
-        padding: 1rem;
-        width: 40%;
-    }
+  #initial-content #input-email {
+    padding: 1rem;
+    width: 45%;
+  }
 
-    #initial-content #input-button{
-        padding: 1.6rem;
-    }
+  #initial-content #input-button {
+    padding: 1.6rem;
+  }
 
-    #rewards h1{
-        font-size: 2rem;
-    }
+  #rewards h1 {
+    font-size: 2rem;
+  }
 
-    #rewards #receive{
-        display: flex;
-        justify-content:stretch;
-        align-items: baseline;
-        flex-direction: row;
-        margin-top: 0;
-    }
+  #rewards #receive {
+    display: flex;
+    justify-content: stretch;
+    align-items: baseline;
+    flex-direction: row;
+    margin-top: 0;
+  }
 
-    #rewards #get-group-button{
-        padding: 2rem;
-        width: 40%;
-    }
+  #rewards #get-group-button {
+    padding: 2rem;
+    width: 40%;
+  }
 
-    #results #video-result{
-        margin-top: 50px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
+  #results #video-result {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 
-    #results #video-result #depoimento_1{
-        width: 30%;
-        height: 500px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  #results #video-result #depoimento_1 {
+    width: 30%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    #results #video-result #depoimento_2{
-        width: 30%;
-        height: 500px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    #results #prints{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr
-    }
+  #results #video-result #depoimento_2 {
+    width: 30%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #results #prints {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
-    #results #prints img{
-        margin-left: 5rem;
-        width: 70%;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        border-radius: 0.8rem;
-    }
+  #results #prints img {
+    margin-left: 5rem;
+    width: 70%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.8rem;
+  }
 
-    #about-us h1{
-        font-size: 2rem;
-    }
+  #about-us h1 {
+    font-size: 2rem;
+  }
 
-    #about-us #description{
-        width: 50%;
-        margin-left: 2rem;
-    }
+  #about-us #content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
 
-    #about-us #get-telegram-button{
-        width: 50%;
-    }
+  #perfil-img{
+      width: 35% !important;
+      height: 10% !important;
+  }
 
-    #questions #QandA{
-        min-height: 50vh;
-        max-height: 100vh;
-    }
+  #download {
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  #link-android {
+    margin-left: 2rem;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #apple {
+    height: 100px;
+  }
+
+  #android {
+    margin-bottom: 0;
+    margin-top: 0rem;
+    height: 100px;
+    align-items: center;
+  }
+
+  #about-us #description {
+    width: 50%;
+    margin-left: 2rem;
+  }
+
+  #about-us #get-group-button {
+    width: 50%;
+  }
+
+  #questions #QandA {
+    min-height: 50vh;
+    max-height: 100vh;
+  }
 }
