@@ -23,4 +23,8 @@ email.onblur = () => {
 button.onclick = () => {
     let name = nome.value;
     let email = email.value;
+    fetch('https://cantosdeelite.herokuapp.com/api/pessoa/')
+      .then((response)=> {
+        alert(response);
+    })
 }

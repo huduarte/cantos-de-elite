@@ -21,7 +21,7 @@
       <div id="initial-content">
         <h1>RECEBA SINAIS GRATUITOS TODOS OS DIAS COM ESPECIALISTAS DO MERCADO DE TRADE ESPORTIVO</h1>
         <p>Se você ainda não possui o telegram, <a href="">clique aqui</a></p>
-        <form action="post" id="form">
+        <form method="POST" action="/create_post/" id="form">
           <input type="text" id="input-name" placeholder="Digite o seu nome">
           <input type="email"id="input-email" placeholder="Digite o seu melhor e-mail">
         </form>
@@ -119,9 +119,26 @@
     }
 
 
-    button.onclick = () => {
-      let name = nome.value;
-      let email = email.value;
+    button.onclick = create_post => {
+      let useremail = email.value;
+      let username = nome.value;
+      var ajax = new XMLHttpRequest();
+
+      var xhr = new XMLHttpRequest();
+      var url = "https://cantosdeelite.herokuapp.com/api/pessoa/";
+      xhr.open("POST", url, true);
+      xhr.setRequestHeader("Content-Type", "application/json");
+      xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+      xhr.setRequestHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+      xhr.setRequestHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+      xhr.onreadystatechange = function () {
+          if (xhr.readyState === 4 && xhr.status === 200) {
+              var json = JSON.parse(xhr.responseText);
+              console.log(json.email + ", " + json.password);
+          }
+      };
+      var data = JSON.stringify({"email": useremail, "name": username});
+      xhr.send(data);
     }
   </script>
 </body>
