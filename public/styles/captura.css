@@ -136,7 +136,7 @@
 
 #rewards #receive #receive-text-1{
   font-weight: 500;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 
 }
 
@@ -150,7 +150,7 @@
   font-weight: 500;
 
   margin-top: 5rem;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 #rewards #receive #receive-image-2{
@@ -284,7 +284,7 @@
 }
 
 #perfil-img{
-  width: 300px !important;
+  width: 90% !important;
   height: 350px;
 }
 
@@ -416,8 +416,6 @@
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  min-height: 50vh;
-  max-height: 100vh;
 }
 
 #questions #QandA #q1{
