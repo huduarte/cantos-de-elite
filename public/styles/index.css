@@ -175,6 +175,10 @@ body:before {
     text-align: center;
 }
 
+#results-title h1{
+    font-size: 1.6rem;
+}
+
 #perfil-name{
     display: flex;
     justify-content: center;
@@ -365,7 +369,7 @@ body:before {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     margin-top: 4rem;
 }
 
@@ -444,6 +448,64 @@ body:before {
     align-items: center;
 }
 
+#section2 #mod3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0b0b0b5e;
+    border-radius: 0.8rem;
+    width: 80%;
+    height: fit-content
+}
+
+#section2 #mod3 strong{
+    display: flex;
+    justify-content: center;
+    color: #83FD04;
+
+}
+#section2 #mod3 p{
+    color: ivory;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section2 #mod4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0b0b0b5e;
+    border-radius: 0.8rem;
+    width: 80%;
+    height: fit-content
+}
+
+#section2 #mod4 strong{
+    display: flex;
+    justify-content: center;
+    color: #83FD04;
+
+}
+#section2 #mod4 p{
+    color: ivory;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #results{
     background-color: #666666;
     min-height: 100%;
@@ -471,8 +533,8 @@ body:before {
 
 #video-result #depoimento_1{
     margin-top: 20px;
-    width: 350px;
     height: 315px;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -480,7 +542,7 @@ body:before {
 #video-result #depoimento_2{
     margin-top: 20px;
     height: 315px;
-    width: 350px;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -519,7 +581,7 @@ body:before {
     align-items: center;
     justify-content: center;
     margin-top: 4rem;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: #83FD04;
 }
 
@@ -563,7 +625,7 @@ body:before {
     color: #DCDCDC;
     margin-top: 4rem;
     font-weight: bold;
-    font-size: 3.8rem;
+    font-size: 2.8rem;
     text-decoration: line-through;
 }
 
@@ -574,7 +636,7 @@ body:before {
 
 #buy #buynow #buy-content #new-price{
     font-weight: bold;
-    font-size: 5rem;
+    font-size: 4rem;
     color: #83FD04;
 }
 
@@ -584,7 +646,7 @@ body:before {
     align-items: center;
     margin-top: 1.2rem;
     color: #DCDCDC;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 #buy #buynow #buy-content #info1 strong{
@@ -682,6 +744,24 @@ body:before {
     #content{
         min-height: 100%;
         max-height: 200%;
+    }
+
+    #section2{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #section2 #mod3{
+        width: 45%;
+    }
+
+    #section2 #mod4{
+        width: 45%;
+        margin-bottom: 2rem;
     }
 
     #video iframe{
